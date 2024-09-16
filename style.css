@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Pridi', serif;
+    overflow-x: hidden;
+}
+/*
+Página HOME
+*/
+header{
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    font-weight: 500;
+    font-size: 60px;
+    margin-left: 20px;
+}
+header ul{
+    display: flex;
+    font-size: 22px;
+    gap: 30px;
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color: black;
+}
+.home-main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.foot-main{
+ margin-left: 30px;
+}
+.foot-main h1{
+    font-weight: 600;
+}
+.foot-main p{
+    font-size: 20px;
+    margin-left: 50px;
+    text-align: justify;
+    width: 78%;
+}
+/*
+Página Sobre nós
+*/
+.main-sobre{
+    width: 95%;
+    margin-left: 20px;
+}
+.main-sobre .missao{
+    display: flex;
+    background: #FEC3FF;
+}
+.main-sobre .missao .text{
+    width: 60%;
+    padding: 10px 20px;
+    color: #A300A7;
+    margin-right: 10px;
+}
+.main-sobre .missao .text h1{
+    font-size: 48px;
+    color: #FA00FF;
+}
+.main-sobre .missao .text p{
+    font-size: 20px;
+    width: 80%;
+    text-align: justify;
+    margin-left: 50px;
+}
+.main-sobre .valores{
+    margin-top: 20px;
+    display: flex;
+    background: #FFB3A3;
+}
+.main-sobre .valores .text{
+    width: 60%;
+    padding: 10px 20px;
+    color: #A300A7;
+    margin-right: 10px;
+}
+.main-sobre .valores .text h1{
+    font-size: 48px;
+    color: #FA00FF;
+}
