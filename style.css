@@ -6,8 +6,6 @@
     box-sizing: border-box;
 }
 body{
-    width: 100vw;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     font-family: 'Pridi', serif;
@@ -19,7 +17,7 @@ Página HOME
 header{
     width: 90%;
     margin-top: 30px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -114,4 +112,50 @@ Página Sobre nós
 }
 .main-sobre .valores img{
     width: 30%;
+}
+
+form{
+    margin-top: -25px;
+    width: 35%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #ECECEC;
+    padding: 20px 20px 50px 20px;
+    border-radius: 15px;
+    
+}
+form h1{
+    font-size: 48px;
+    text-align: center;
+    background: -webkit-linear-gradient(#C5056C, #B500AD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: -20px;
+}
+form .input-txt{
+    width: 90%;
+    border: none;
+    align-self: center;
+    background-color: #BFBFBF;
+    border-radius: 5px;
+    padding: 10px 0;
+    margin-bottom: 25px;
+}
+form label{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+form button{
+    background: linear-gradient(90deg, #C5056C, #60005C);
+    color: white;
+    padding: 10px;
+    width: 60%;
+    font-size: 30px;
+    align-self: center;
+    font-family: 'Pridi', serif;
+    font-weight: 500;
+    border-radius: 10px;
 }
