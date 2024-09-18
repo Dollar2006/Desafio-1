@@ -67,6 +67,8 @@ Página Sobre nós
 .main-sobre .missao{
     display: flex;
     background: #FEC3FF;
+    border-radius: 20px;
+    padding: 20px;
 }
 .main-sobre .missao .text{
     width: 60%;
@@ -84,18 +86,32 @@ Página Sobre nós
     text-align: justify;
     margin-left: 50px;
 }
+.main-sobre .missao img{
+    width: 30%;
+    padding: 20px;
+}
 .main-sobre .valores{
     margin-top: 20px;
     display: flex;
     background: #FFB3A3;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    padding: 20px;
 }
-.main-sobre .valores .text{
+.main-sobre .valores .text2{
     width: 60%;
     padding: 10px 20px;
-    color: #A300A7;
+    color: #FF5530;
     margin-right: 10px;
 }
-.main-sobre .valores .text h1{
+.main-sobre .valores .text2 h1{
     font-size: 48px;
-    color: #FA00FF;
+    color: #FF5530;
+}
+.main-sobre .valores ul{
+    margin-left: 40px;
+    font-size: 20px;
+}
+.main-sobre .valores img{
+    width: 30%;
 }
